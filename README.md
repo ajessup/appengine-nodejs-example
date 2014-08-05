@@ -17,8 +17,11 @@ What's in this repository?
 The package consists of the following:
 
 `app.js` - The initial javascript file that is called by the node process
+
 `app.yaml` - A configuration file for App Engine, that describes how your project is configured.
+
 `Dockerfile` - A Dockerfile, this tells App Engine where and how to install node
+
 `package.json` - An npm package manifest. By default this installs express and some helper libraries for App Engine
 
 Running your application locally
@@ -31,11 +34,6 @@ Then, to run your application locally:
  `$ gcloud preview app run /path/to/your/application`
 
 This will build your application and run it locally. It will also start up and emulate core Cloud Platform services such as memcache, Cloud Storage and logging, allowing you access local mocks of these services during development.
-
-Accessing App Engine services
-=============================
-
-You can access App Engine services from your node application. 
 
 Deploying your application
 ==========================
