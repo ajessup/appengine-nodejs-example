@@ -1,0 +1,8 @@
+runtime: custom
+vm: true
+version: default
+api_version: 1
+
+handlers:
+- url: .*
+  script: nothing.js
