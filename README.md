@@ -9,6 +9,11 @@ You must have the Google Cloud SDK, with the Managed VM component installed. We 
 
 You must also install Docker on your workstation, as the SDK uses it to build, test and deploy your application. Refer to the Managed VM documentation for more information on how to install Docker for your environment.
 
+Once you have docker installed, you need to pull Google's docker registry:
+```
+$ docker pull google/docker-registry
+```
+
 Finally, you should also clone or download this repository to your workstation to use as a base for your node.js application.
 
 What's in this repository?
